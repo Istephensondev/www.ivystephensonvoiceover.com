@@ -320,8 +320,8 @@ export function Hero() {
                     }`} />
                   </button>
 
-                  <div className={`overflow-hidden transition-all duration-500 ease-out ${expandedGenre === category.id ? 'max-h-[500px]' : 'max-h-0'}`}>
-                    <div className="bg-gradient-to-b from-muted/30 to-muted/10 border-t border-border/50">
+                  <div className={`overflow-hidden transition-all duration-500 ease-out ${expandedGenre === category.id ? 'max-h-[300px]' : 'max-h-0'}`}>
+                    <div className="bg-gradient-to-b from-muted/30 to-muted/10 border-t border-border/50 max-h-[280px] overflow-y-auto">
                       {category.clips.map((clip, index) => (
                         <div
                           key={clip.id}
