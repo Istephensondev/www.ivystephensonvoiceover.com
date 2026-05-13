@@ -30,7 +30,7 @@ export function Navigation() {
       {/* Main Navigation */}
       <nav className="border-b border-white/10">
         <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
-          <div className="flex items-center justify-between h-24">
+          <div className="flex items-center justify-between h-28 pt-2">
             {/* Logo */}
             <Link href="#home" className="group relative overflow-visible">
               <div className="relative">
