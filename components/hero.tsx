@@ -159,15 +159,15 @@ export function Hero() {
     <section id="home" className="bg-gradient-to-br from-background via-background to-muted/30 relative overflow-hidden">
       {/* Tie-dye red animated background elements */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        <div className="absolute top-10 left-5 w-96 h-96 bg-gradient-to-br from-accent/15 via-red-500/10 to-red-600/5 rounded-full blur-3xl animate-float" />
-        <div className="absolute top-40 right-20 w-64 h-64 bg-gradient-to-bl from-red-600/12 via-accent/8 to-transparent rounded-full blur-2xl animate-float" style={{ animationDelay: '1s' }} />
-        <div className="absolute bottom-20 right-10 w-80 h-80 bg-gradient-to-tl from-accent/12 via-red-500/8 to-primary/5 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
-        <div className="absolute bottom-40 left-1/4 w-48 h-48 bg-gradient-to-tr from-red-500/10 via-accent/6 to-transparent rounded-full blur-2xl animate-float" style={{ animationDelay: '3s' }} />
-        <div className="absolute top-1/2 right-1/3 w-72 h-72 bg-gradient-to-r from-red-600/8 via-accent/5 to-red-400/8 rounded-full blur-3xl animate-float" style={{ animationDelay: '4s' }} />
+        <div className="absolute top-10 left-5 w-96 h-96 bg-gradient-to-br from-accent/35 via-red-500/28 to-red-600/18 rounded-full blur-3xl animate-float" />
+        <div className="absolute top-40 right-20 w-64 h-64 bg-gradient-to-bl from-red-600/32 via-accent/22 to-transparent rounded-full blur-2xl animate-float" style={{ animationDelay: '1s' }} />
+        <div className="absolute bottom-20 right-10 w-80 h-80 bg-gradient-to-tl from-accent/30 via-red-500/22 to-primary/12 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
+        <div className="absolute bottom-40 left-1/4 w-48 h-48 bg-gradient-to-tr from-red-500/28 via-accent/18 to-transparent rounded-full blur-2xl animate-float" style={{ animationDelay: '3s' }} />
+        <div className="absolute top-1/2 right-1/3 w-72 h-72 bg-gradient-to-r from-red-600/25 via-accent/18 to-red-400/22 rounded-full blur-3xl animate-float" style={{ animationDelay: '4s' }} />
         {/* Decorative red gradient lines */}
-        <div className="absolute top-1/4 left-0 w-32 h-0.5 bg-gradient-to-r from-red-500/40 via-accent/30 to-transparent" />
-        <div className="absolute top-1/3 right-0 w-48 h-0.5 bg-gradient-to-l from-accent/30 via-red-600/20 to-transparent" />
-        <div className="absolute bottom-1/4 left-0 w-24 h-0.5 bg-gradient-to-r from-accent/35 via-red-500/25 to-transparent" />
+        <div className="absolute top-1/4 left-0 w-32 h-1 bg-gradient-to-r from-red-500/70 via-accent/55 to-transparent" />
+        <div className="absolute top-1/3 right-0 w-48 h-1 bg-gradient-to-l from-accent/55 via-red-600/45 to-transparent" />
+        <div className="absolute bottom-1/4 left-0 w-24 h-1 bg-gradient-to-r from-accent/60 via-red-500/50 to-transparent" />
       </div>
 
       <div className="relative max-w-[1400px] mx-auto px-10 sm:px-16 lg:px-24 py-12 lg:py-16">
