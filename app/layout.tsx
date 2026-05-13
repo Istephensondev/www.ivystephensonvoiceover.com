@@ -25,9 +25,6 @@ export const metadata: Metadata = {
   title: 'Ivy Stephenson | Female Voiceover Artist | Nashville & Orlando',
   description: 'Professional female voiceover artist and voice actor based in Nashville, TN and Orlando, FL. Broadcast-ready audio for commercials, corporate narration, e-learning, and animation.',
   generator: 'v0.app',
-  verification: {
-    google: 'xxxxxxxx',
-  },
   icons: {
     icon: [
       {
