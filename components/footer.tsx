@@ -4,8 +4,11 @@ import { Mail, Instagram, Youtube } from "lucide-react";
 export function Footer() {
   return (
     <footer className="bg-gradient-to-b from-primary to-primary/95 text-primary-foreground py-14 relative overflow-hidden">
-      {/* Subtle top accent line */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-accent to-transparent" />
+      {/* Tie-dye red accents */}
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-red-600/80 via-accent to-red-500/60" />
+      <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-accent/20 via-red-600/10 to-transparent rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-red-500/15 via-accent/10 to-transparent rounded-full blur-3xl" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-48 bg-gradient-to-r from-red-600/8 via-accent/5 to-red-500/8 rounded-full blur-3xl" />
       
       <div className="max-w-6xl mx-auto px-8 sm:px-12 lg:px-16 relative">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8">

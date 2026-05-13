@@ -86,9 +86,11 @@ export function Contact() {
 
   return (
     <section id="contact" ref={sectionRef} className="bg-gradient-to-br from-muted/30 via-background to-muted/50 py-20 lg:py-32 relative overflow-hidden">
-      {/* Animated background elements */}
-      <div className="absolute top-20 right-20 w-64 h-64 bg-accent/5 rounded-full blur-3xl animate-float" />
-      <div className="absolute bottom-20 left-20 w-80 h-80 bg-primary/5 rounded-full blur-3xl animate-float" style={{ animationDelay: '3s' }} />
+      {/* Tie-dye red background elements */}
+      <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-br from-accent/20 via-red-500/10 to-transparent rounded-full blur-3xl animate-float" />
+      <div className="absolute top-20 right-20 w-64 h-64 bg-gradient-to-bl from-red-600/15 via-accent/10 to-transparent rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
+      <div className="absolute bottom-20 left-20 w-80 h-80 bg-gradient-to-tr from-accent/15 via-red-400/10 to-transparent rounded-full blur-3xl animate-float" style={{ animationDelay: '3s' }} />
+      <div className="absolute bottom-0 right-1/4 w-72 h-72 bg-gradient-to-tl from-red-500/12 via-accent/8 to-transparent rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
       
       {/* Decorative mic icon */}
       <div className="absolute top-1/4 right-10 opacity-5 hidden lg:block">
