@@ -41,7 +41,6 @@ const demoCategories: DemoCategory[] = [
       { id: "pizzahut-ad", title: "Pizza Hut - National Commercial - Online Ad - Television (Ivy Stephenson Demos)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-pizza-hut-commercial.wav" },
       { id: "tinder-commercial", title: "Tinder - Online Dating Ad (Ivy Stephenson Demos)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-tinder-commercial.wav" },
       { id: "tesla-commercial", title: "Tesla - Commercial Demo (Ivy Stephenson Demos)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-tesla-commercial.wav" },
-      { id: "perfect-mismatch", title: "Perfect Mismatch - Audition (Ivy Stephenson Demos)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-perfect-mismatch-audition.mp3" },
     ],
   },
   {
