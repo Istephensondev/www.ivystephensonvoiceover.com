@@ -23,8 +23,66 @@ const dancingScript = Dancing_Script({
 
 export const metadata: Metadata = {
   title: 'Ivy Stephenson | Female Voiceover Artist | Nashville & Orlando',
-  description: 'Professional female voiceover artist and voice actor based in Nashville, TN and Orlando, FL. Broadcast-ready audio for commercials, corporate narration, e-learning, and animation.',
+  description: 'Professional female voiceover artist and voice actor based in Nashville, TN and Orlando, FL. Broadcast-ready audio for commercials, corporate narration, e-learning, animation, and video games. Book Ivy for your next project.',
   generator: 'v0.app',
+  metadataBase: new URL('https://www.ivystephensonvoiceover.com'),
+  keywords: [
+    'female voiceover artist',
+    'voice actor Nashville',
+    'voice actor Orlando',
+    'commercial voiceover',
+    'animation voice actor',
+    'video game voice actor',
+    'professional voiceover',
+    'female voice talent',
+    'broadcast voiceover',
+    'corporate narration',
+    'e-learning voiceover',
+    'Ivy Stephenson',
+    'Nashville voiceover',
+    'Orlando voiceover',
+    'Florida voice actor',
+    'Tennessee voice actor',
+  ],
+  authors: [{ name: 'Ivy Stephenson' }],
+  creator: 'Ivy Stephenson',
+  publisher: 'Ivy Stephenson Voiceover',
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://www.ivystephensonvoiceover.com',
+    siteName: 'Ivy Stephenson Voiceover',
+    title: 'Ivy Stephenson | Professional Female Voiceover Artist',
+    description: 'Professional female voiceover artist based in Nashville and Orlando. Broadcast-quality audio for commercials, animation, video games, and corporate narration.',
+    images: [
+      {
+        url: '/images/ivy-stephenson-female-voiceover-artist-nashville.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Ivy Stephenson - Professional Female Voiceover Artist Nashville Orlando',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ivy Stephenson | Female Voiceover Artist | Nashville & Orlando',
+    description: 'Professional female voiceover artist for commercials, animation, video games, and corporate narration. Broadcast-ready audio.',
+    images: ['/images/ivy-stephenson-female-voiceover-artist-nashville.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://www.ivystephensonvoiceover.com',
+  },
   icons: {
     icon: [
       {
