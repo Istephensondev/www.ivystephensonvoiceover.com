@@ -117,10 +117,12 @@ export function Testimonials() {
 
   return (
     <section id="testimonials" ref={sectionRef} className="bg-background py-12 lg:py-16 relative overflow-hidden">
-      {/* Background decoration */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-accent via-accent/50 to-transparent" />
-      <div className="absolute bottom-0 right-0 w-1/2 h-1 bg-gradient-to-l from-accent via-accent/50 to-transparent" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-accent/5 rounded-full blur-3xl" />
+      {/* Tie-dye red background decorations */}
+      <div className="absolute top-0 left-0 w-full h-1.5 bg-gradient-to-r from-red-600 via-accent to-red-500/70" />
+      <div className="absolute bottom-0 right-0 w-1/2 h-1.5 bg-gradient-to-l from-accent via-red-500/80 to-transparent" />
+      <div className="absolute top-0 left-0 w-80 h-80 bg-gradient-to-br from-accent/35 via-red-500/25 to-transparent rounded-full blur-3xl" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-r from-red-600/22 via-accent/15 to-red-500/20 rounded-full blur-3xl" />
+      <div className="absolute bottom-0 right-0 w-72 h-72 bg-gradient-to-tl from-red-500/30 via-accent/22 to-transparent rounded-full blur-3xl" />
       
       <div className="max-w-4xl mx-auto px-8 sm:px-12 lg:px-16 relative">
         <h2 className={`font-serif text-3xl lg:text-4xl text-foreground text-center mb-3 transition-all duration-700 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
