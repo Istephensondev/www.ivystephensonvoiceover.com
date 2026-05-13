@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Space_Grotesk, Syne, Dancing_Script } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
+import { StructuredData } from '@/components/structured-data'
 import './globals.css'
 
 const spaceGrotesk = Space_Grotesk({ 
@@ -23,8 +24,7 @@ const dancingScript = Dancing_Script({
 
 export const metadata: Metadata = {
   title: 'Ivy Stephenson | Female Voiceover Artist | Nashville & Orlando',
-  description: 'Professional female voiceover artist and voice actor based in Nashville, TN and Orlando, FL. Broadcast-ready audio for commercials, corporate narration, e-learning, animation, and video games. Book Ivy for your next project.',
-  generator: 'v0.app',
+  description: 'Professional female voiceover artist and voice actor based in Nashville, TN and Orlando, FL. Listen to commercial, animation, video game, and audiobook demos. Broadcast-ready audio for corporate narration and e-learning.',
   metadataBase: new URL('https://www.ivystephensonvoiceover.com'),
   keywords: [
     'female voiceover artist',
@@ -33,6 +33,8 @@ export const metadata: Metadata = {
     'commercial voiceover',
     'animation voice actor',
     'video game voice actor',
+    'audiobook narration',
+    'romance audiobook narrator',
     'professional voiceover',
     'female voice talent',
     'broadcast voiceover',
@@ -43,6 +45,8 @@ export const metadata: Metadata = {
     'Orlando voiceover',
     'Florida voice actor',
     'Tennessee voice actor',
+    'character voice actor',
+    'female voiceover demos',
   ],
   authors: [{ name: 'Ivy Stephenson' }],
   creator: 'Ivy Stephenson',
@@ -110,6 +114,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-background">
       <body className={`${spaceGrotesk.variable} ${syne.variable} ${dancingScript.variable} font-sans antialiased`}>
+        <StructuredData />
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

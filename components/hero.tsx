@@ -25,9 +25,9 @@ interface VideoItem {
 }
 
 const videos: VideoItem[] = [
-  { id: "video-1", title: "Video 1", youtubeId: "hBEProTBKSk" },
-  { id: "video-2", title: "Video 2", youtubeId: "9-aVes1jZm8" },
-  { id: "video-3", title: "Video 3", youtubeId: "DLiq2UD-5TY" },
+  { id: "video-1", title: "eBay International Shipping - Online Ad (Ivy Stephenson Voiceover)", youtubeId: "hBEProTBKSk" },
+  { id: "video-2", title: "Altruistic Academy - Promo Video (Ivy Stephenson Voiceover)", youtubeId: "9-aVes1jZm8" },
+  { id: "video-3", title: "Altruistic Academy - Walkthrough Tour Promo (Ivy Stephenson Voiceover)", youtubeId: "DLiq2UD-5TY" },
 ];
 
 const demoCategories: DemoCategory[] = [
@@ -35,27 +35,27 @@ const demoCategories: DemoCategory[] = [
     id: "commercial",
     genre: "Commercial",
     clips: [
-      { id: "commercial-2026", title: "2026 Commercial Demo (JMC Demos)", duration: "1:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-commercial-demo-2026.mp3" },
-      { id: "commercial-demo", title: "Commercial Demo (Ivy Stephenson Demos)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-commercial-demo.wav" },
-      { id: "bar-s-promo", title: "Bar-S - Promo (Online Ad)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-bar-s-promo.mp3" },
-      { id: "pizzahut-ad", title: "Pizza Hut - National Commercial - Online Ad - Television (Ivy Stephenson Demos)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-pizza-hut-commercial.wav" },
-      { id: "tinder-commercial", title: "Tinder - Online Dating Ad (Ivy Stephenson Demos)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-tinder-commercial.wav" },
-      { id: "tesla-commercial", title: "Tesla - Commercial Demo (Ivy Stephenson Demos)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-tesla-commercial.wav" },
+      { id: "commercial-2026", title: "2026 Commercial Voiceover Demo (JMC Demos | Ivy Stephenson)", duration: "1:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-commercial-demo-2026.mp3" },
+      { id: "commercial-demo", title: "Commercial Voiceover Demo (Ivy Stephenson)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-commercial-demo.wav" },
+      { id: "bar-s-promo", title: "Bar-S Promo - Online Ad (Ivy Stephenson Voiceover)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-bar-s-promo.mp3" },
+      { id: "pizzahut-ad", title: "Pizza Hut National Commercial - TV & Online Ad (Ivy Stephenson Voiceover)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-pizza-hut-commercial.wav" },
+      { id: "tinder-commercial", title: "Tinder Online Dating Ad - Commercial Demo (Ivy Stephenson Voiceover)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-tinder-commercial.wav" },
+      { id: "tesla-commercial", title: "Tesla Commercial Voiceover Demo (Ivy Stephenson)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-tesla-commercial.wav" },
     ],
   },
   {
     id: "animation",
     genre: "Animation & Video Games",
     clips: [
-      { id: "animation-videogame", title: "Video Games - Child, Evil Queen, Fairy, Evil Charismatic King (Ivy Stephenson Demos)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-animation-character-demo.mp3" },
-      { id: "animation-voices", title: "Animation/Character Voices - Child, Evil Villain, Fairy, Creatures, Robot, Female, Male (Ivy Stephenson Demos)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-character-voices-demo.wav" },
+      { id: "animation-videogame", title: "Video Game Voice Acting Demo - Child, Evil Queen, Fairy, Evil Charismatic King (Ivy Stephenson)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-animation-character-demo.wav" },
+      { id: "animation-voices", title: "Animation & Character Voice Demo - Child, Evil Villain, Fairy, Creatures, Robot (Ivy Stephenson)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-character-voices-demo.mp3" },
     ],
   },
   {
     id: "audiobook",
     genre: "Audiobook & Narration",
     clips: [
-      { id: "romance-audiobook", title: "Romance Audiobook Narration (Ivy Stephenson Demos)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-romance-audiobook-narration.mp3" },
+      { id: "romance-audiobook", title: "Romance Audiobook Narration Demo (Ivy Stephenson Voiceover)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-romance-audiobook-narration.mp3" },
     ],
   },
 ];
@@ -165,7 +165,8 @@ export function Hero() {
   };
 
   return (
-    <section id="home" className="bg-gradient-to-br from-background via-background to-muted/30 relative overflow-hidden">
+    <section id="home" aria-label="Ivy Stephenson voiceover artist homepage" className="bg-gradient-to-br from-background via-background to-muted/30 relative overflow-hidden">
+      <h1 className="sr-only">Ivy Stephenson - Professional Female Voiceover Artist | Nashville & Orlando</h1>
       {/* Animated background elements */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <div className="absolute top-10 left-5 w-96 h-96 bg-accent/10 rounded-full blur-3xl animate-float" />
@@ -201,7 +202,7 @@ export function Hero() {
               <div className="flex items-center gap-2 flex-1 min-w-0">
                 <span className="text-[10px] font-medium tracking-widest uppercase text-accent">Featured</span>
                 <span className="text-muted-foreground/40">|</span>
-                <span className="text-sm font-semibold text-foreground truncate">2026 Commercial Demo (JMC Demos)</span>
+                <span className="text-sm font-semibold text-foreground truncate">2026 Commercial Voiceover Demo (JMC Demos | Ivy Stephenson)</span>
               </div>
 
               {playingId === 'featured-commercial' ? (
@@ -255,7 +256,7 @@ export function Hero() {
           </div>
 
           {/* Column 2: Demo Reels (Center) */}
-          <div id="demos" className="bg-card rounded-2xl border border-border/50 shadow-2xl overflow-hidden flex flex-col order-1 lg:order-2 relative creative-card group/demos">
+          <div id="demos" aria-labelledby="demo-reels-heading" className="bg-card rounded-2xl border border-border/50 shadow-2xl overflow-hidden flex flex-col order-1 lg:order-2 relative creative-card group/demos">
             {/* Animated gradient border effect */}
             <div className="absolute -inset-[1px] bg-gradient-to-br from-accent via-accent/40 to-primary rounded-2xl opacity-50 group-hover/demos:opacity-80 transition-opacity duration-500 -z-10 blur-[1px]" />
             
@@ -274,7 +275,7 @@ export function Hero() {
                   <div className="w-3 h-3 bg-accent rounded-full animate-pulse" />
                   <div className="absolute inset-0 w-3 h-3 bg-accent rounded-full animate-ping opacity-50" />
                 </div>
-                <h2 className="text-xl font-bold tracking-wide">Demo Reels</h2>
+                <h2 id="demo-reels-heading" className="text-xl font-bold tracking-wide">Demo Reels</h2>
               </div>
             </div>
                 {/* Now Playing Bar */}
@@ -339,6 +340,7 @@ export function Hero() {
                           <div className="flex items-center gap-4">
                             <button
                               onClick={() => togglePlay(clip.id, clip.audioUrl)}
+                              aria-label={playingId === clip.id ? `Pause ${clip.title}` : `Play ${clip.title}`}
                               className={`relative w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 ${
                                 playingId === clip.id 
                                   ? 'bg-accent text-accent-foreground scale-110' 
@@ -370,7 +372,8 @@ export function Hero() {
                           </div>
                           <a 
                             href={clip.audioUrl}
-                            download
+                            download={clip.audioUrl.split('/').pop()}
+                            aria-label={`Download ${clip.title}`}
                             className="p-2.5 hover:bg-accent/10 rounded-full transition-all duration-300 text-muted-foreground hover:text-accent opacity-0 group-hover/clip:opacity-100 hover:scale-110"
                           >
                             <Download className="w-4 h-4" />
@@ -548,7 +551,7 @@ export function Hero() {
                     "Source-Connect | Zoom | Phone Patch",
                     "Nashville, TN & Orlando, FL",
                     "Self-Directed & Live-Directed Sessions",
-                    "Fast Turnaround ��� Same Day Delivery",
+                    "Fast Turnaround — Same Day Delivery",
                     "Clean Audio — No Post-Cleanup Needed",
                   ].map((item, index) => (
                     <div key={index} className="flex items-center gap-3 flex-shrink-0">
