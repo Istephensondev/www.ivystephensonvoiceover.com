@@ -29,7 +29,7 @@ export function Navigation() {
     <header className={`bg-primary text-primary-foreground sticky top-0 z-50 transition-all duration-500 ${scrolled ? 'shadow-2xl shadow-primary/30' : 'shadow-xl'}`}>
       {/* Main Navigation */}
       <nav className="border-b border-white/10">
-        <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-10">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-24">
             {/* Logo */}
             <Link href="#home" className="group relative overflow-visible">
@@ -66,7 +66,7 @@ export function Navigation() {
             </Link>
 
             {/* Desktop Navigation */}
-            <div className="hidden lg:flex items-center gap-10">
+            <div className="hidden lg:flex items-center gap-8">
               {navLinks.map((link, index) => (
                 <Link
                   key={link.href}
