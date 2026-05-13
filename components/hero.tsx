@@ -36,9 +36,9 @@ const demoCategories: DemoCategory[] = [
     genre: "Commercial",
     clips: [
       { id: "commercial-2026", title: "2026 Commercial Demo (JMC Demos)", duration: "1:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-commercial-demo-2026.mp3" },
-      { id: "commercial-demo", title: "Commercial Demo", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-commercial-demo.wav" },
+      { id: "commercial-demo", title: "Commercial Demo (Ivy Stephenson Demos)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-commercial-demo.wav" },
       { id: "bar-s-promo", title: "Bar-S - Promo (Online Ad)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-bar-s-promo.mp3" },
-      { id: "pizzahut-ad", title: "Pizza Hut - National Commercial - Online Ad - Television", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-pizza-hut-commercial.wav" },
+      { id: "pizzahut-ad", title: "Pizza Hut - National Commercial - Online Ad - Television (Ivy Stephenson Demos)", duration: "0:30", audioUrl: "/demos/ivy-stephenson-female-voiceover-pizza-hut-commercial.wav" },
     ],
   },
   {
