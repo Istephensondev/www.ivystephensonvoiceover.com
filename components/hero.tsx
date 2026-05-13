@@ -52,6 +52,13 @@ const demoCategories: DemoCategory[] = [
       { id: "animation-voices", title: "Animation/Character Voices - Child, Evil Villain, Fairy, Creatures, Robot, Female, Male (Ivy Stephenson Demos)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-character-voices-demo.wav" },
     ],
   },
+  {
+    id: "audiobook",
+    genre: "Audiobook & Narration",
+    clips: [
+      { id: "romance-audiobook", title: "Romance Audiobook Narration (Ivy Stephenson Demos)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-romance-audiobook-narration.mp3" },
+    ],
+  },
 ];
 
 function SoundWave({ isPlaying }: { isPlaying: boolean }) {
