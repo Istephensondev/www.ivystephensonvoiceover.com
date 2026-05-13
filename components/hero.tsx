@@ -45,8 +45,8 @@ const demoCategories: DemoCategory[] = [
     id: "animation",
     genre: "Animation & Video Games",
     clips: [
-      { id: "animation-videogame", title: "Video Games - Child, Evil Queen, Fairy, Evil Charismatic King", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-animation-character-demo.mp3" },
-      { id: "animation-voices", title: "Animation/Character Voices - Child, Evil Villain, Fairy, Creatures, Robot, Female, Male", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-character-voices-demo.wav" },
+      { id: "animation-videogame", title: "Video Games - Child, Evil Queen, Fairy, Evil Charismatic King (Ivy Stephenson Demos)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-animation-character-demo.mp3" },
+      { id: "animation-voices", title: "Animation/Character Voices - Child, Evil Villain, Fairy, Creatures, Robot, Female, Male (Ivy Stephenson Demos)", duration: "1:00", audioUrl: "/demos/ivy-stephenson-female-voiceover-character-voices-demo.wav" },
     ],
   },
 ];
